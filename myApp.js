@@ -33,7 +33,7 @@ const helmet = require('helmet');
 
 // Use `helmet.hidePoweredBy()``
 
-
+helmet.hidePoweredBy({ setTo: 'PHP 4.3.0'})
 
 /** 3) Mitigate the risk of clickjacking - `helmet.frameguard()` */
 
