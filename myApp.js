@@ -18,9 +18,7 @@ var app = express();              // Do Not Edit
 // Install the package, then require it.
 
 const helmet = require('helmet');
-
-
-
+app.use(helmet());
 /** 2) Hide potentially dangerous information - `helmet.hidePoweredBy()` */
 
 // Hackers can exploit known vulnerabilities in Express/Node
